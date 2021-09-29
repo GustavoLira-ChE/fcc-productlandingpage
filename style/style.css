@@ -1,8 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Montserrat&display=swap');
+
 *,
 *::before,
 *::after{
     box-sizing: border-box;
 }
+/*Body style to use the total space of the doc*/
 body{
-    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E6E6E6;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ephesis', cursive;
+}
+/* Styling the super header bar*/
+header div:first-of-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 2rem;
+}
+header div:first-of-type label{
+    width: 168px;
+}
+header div p {
+    margin-right: auto;
+    color: white;
+}
+.header-logo-navbar{
+    padding: 1rem 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
 }
