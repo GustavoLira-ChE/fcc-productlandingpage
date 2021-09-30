@@ -5,36 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
+    <title>MissTablitas</title>
 </head>
 <body>
     <header>
         <div>
-            <p>Super ofertas, <a href="">descuentos</a> de hasta el 40%.</p>
+            <p>Big <a href="">deals</a>, some products take up 30% off.</p>
             <label for="">
-                Buscar en el sitio...
-                <input type="text" placeholder="Buscar">
+                Looking for...
+                <input type="text" placeholder="Search">
             </label>
         </div>
         <div class="header-logo-navbar">
-            <h3>StoreLogo</h3>
+            <h3>MissTablitas</h3>
             <nav>
                 <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section>
+        <section id="about">
+            <div class="left-side-bar"></div>
+            <div class="main-content">
+                <h2>What about us?</h2>
+                <p>We are a local store with a large amount and assortment of products to have the best charcuterie plate. If you want to know more about deals, clearance and <strong>new products</strong> please register yor email to receive our notifications.</p>
+                <form action="">
+                    <label for="email">
+                        <input type="email" placeholder="Enter your email.">
+                    </label>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </section>
-        <section></section>
-        <section></section>
+        <section>
+            <div class="left-side-bar"><h2>Features</h2></div>
+            <div class="main-content">
+                <article>
+                    <h3>Premium</h3>
+                    <p>We use the best cured meats and chesse as well. Our plates are complimenting with olives and nuts, fresh fruit, crackers and small slices of bread. All our charcuterie plates are made with the highest quality ingredients</p>
+                </article>
+                <article>
+                    <h3>Delivery</h3>
+                    <p>If you order some of our products we guarantee that your plate will be delivered in a couple of hours.</p>
+                </article>
+                <article>
+                    <h3>Many choise</h3>
+                    <p>You can choose between 3 of our packages or if you prefer customizing your own plate with the ingredients that you choose.</p>
+                </article>
+            </div>
+        </section>
+        <section>
+            <div class="main-content">
+                <h2>What wine should do I choose?</h2>
+                <p>If you don't know what wine is the best for your charcuterie plate, we recommend you different kinds of wine y the next video.</p>
+                <iframe src="https://www.youtube.com/watch?v=2oYRPD5UBPM&ab_channel=JoshuaWeissman"></iframe>
+            </div>
+        </section>
+        <section id="products">
+            <div class="left-side-bar"></div>
+            <div class="main-content block-package-container">
+                <h2>Our gift boxes are perfect for every moment!</h3>
+                <div class="block-package-container">
+                    <div class="block-package">
+                        <h4 style="width: 100%;">Gift box 1</h4>
+                        <ul>
+                            <li>Serrano ham. 100g</li>
+                            <li>Manchego Cheese. 100g</li>
+                            <li>Bacon. 200G</li>
+                        </ul>
+                        <div>Price $49.99</div>
+                        <a href="">Select</a>
+                    </div>
+                    <div class="block-package">
+                        <h4>Gif box 2</h4>
+                        <ul>
+                            <li>Sliced Jambon de Bayonne. 100g</li>
+                            <li>Parmigiano Reggiano. 100g</li>
+                            <li>Chorizo de Cantimpalos (Spain). 200G</li>
+                        </ul>
+                        <div>Price $59.99</div>
+                        <a href="">Select</a>
+                    </div>
+                    <div class="block-package">
+                        <h4>Gift box 3</h4>
+                        <ul>
+                            <li>Iberian ham. 200g</li>
+                            <li>Roquefort Cheese. 100g</li>
+                            <li>Artisanal Dry-Cured Saucisson Sec, Pork. 200G</li>
+                        </ul>
+                        <div>Price $80.00</div>
+                        <a href="">Select</a>
+                    </div>
+                    <div class="block-package">
+                        <h4>Gift box 4</h4>
+                        <p>
+                            You can choose a different combination and portion of all products.
+                        </p>
+                        <div>Price $--.--</div>
+                        <a href="">Select</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <button>Help</button>
     <footer>
-
+        <p>
+            For more information about us, please call <a id="contact" href="">51-51-434-55</a> 
+        </p>
+        <p>
+            This page is just an example.
+        </p>
     </footer>
 </body>
 </html>
