@@ -8,6 +8,7 @@
     --padding-bottom: 16px;
     --menu-color-bkg: hsl(60, 10%, 90%);
     --gap-flex: 8px;
+    scroll-behavior: smooth;
 }
 /*Body style to use the total space of the doc*/
 body{
@@ -16,6 +17,7 @@ body{
     border: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E6E6E6;
+
 }
 /* Styling 2 sections of header*/
 header div:first-of-type{
@@ -30,6 +32,7 @@ header div:first-of-type{
 header{
     position: sticky;
     top: 0px;
+    color: black;
 }
 .header-logo-navbar{
     padding: var(--padding-trl) var(--padding-trl) 0rem var(--padding-trl);
@@ -49,6 +52,7 @@ section{
     width: 90%;
     margin: var(--padding-bottom) auto;
     gap: var(--padding-trl);
+    scroll-margin-top: 100px;
 }
 .main-content{
     width: 80%;
@@ -72,7 +76,7 @@ iframe{
 /* Product section */
 .block-package{
     width: 200px;
-    height: 300px;
+    height: fit-content;
     /* border: 1px solid gray; */
     background-color: var(--menu-color-bkg);
     padding: calc(var(--padding-trl) / 2);
